@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
-import DialogueBox from "../../components/dialogueBox";
+import DialogueBox from "../../components/DialogueBox";
 import sceneFourLines from "../../script/sceneFour";
 import styles from "../../styles/SceneFour.module.css";
 import Image from 'next/image';
