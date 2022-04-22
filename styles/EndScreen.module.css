@@ -1,0 +1,197 @@
+.container {
+  padding: 4rem 2rem;
+  background-size: cover;
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-kitchen{
+  background-image: url(../public/images/kitchen.png);
+  background-size: cover;
+}
+.bg-restaurant {
+  background-image: url(../public/images/retaurant.jpg);
+  background-size: cover;
+  -webkit-transition: background-image 1.3s ease-in-out;
+  transition: background-image 1.3s ease-in-out;
+}
+.bg-outside {
+  background-image: url(../public/images/complex.png);
+  background-size: cover;
+  -webkit-transition: background-image 1.3s ease-in-out;
+  transition: background-image 1.3s ease-in-out;
+}
+
+.btn {
+  background-color: #13c4a3;
+  color: #ffffff;
+  padding: 25px;
+  font-size: 3rem;
+  height: 6rem;
+  width: 25rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 2px 5px 5px 0px rgba(255, 255, 255, 0.19);
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(255, 255, 255, 0.19);
+  -moz-box-shadow: 2px 5px 5px 0px rgba(255, 255, 255, 0.19);
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  color: #000000;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.video {   
+  object-fit: cover;   
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.disabled {
+  visibility: hidden;
+}
+
+.person-one {
+  position: fixed;
+  height: 40vh;
+  width: auto;
+  object-fit: cover;
+  bottom: 35vh;
+  left: 15vw;
+}
+.person-two {
+  position: fixed;
+  height: 40vh;
+  width: auto;
+  object-fit: cover;
+  bottom: 35vh;
+  right: 15vw;
+}
+.people {
+  position: fixed;
+  height: 40vh;
+  width: auto;
+  object-fit: cover;
+  bottom: 35vh;
+  right: 30vw;
+}
+
+.disable-click {
+  pointer-events: none;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.text {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  z-index: 1;
+  margin: 0 5rem;
+}
+
+.btn-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+
+/* BELOW CODE FROM http://ianlunn.github.io/Hover/ */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+/* ABOVE CODE FROM http://ianlunn.github.io/Hover/ */

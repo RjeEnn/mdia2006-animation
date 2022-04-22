@@ -1,0 +1,21 @@
+.container {
+  height: 15vh;
+  width: 80vw;
+  border-radius: 8px;
+  border: 3px solid #587291;
+  background-color: rgba(33, 41, 34, 0.9);
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  color: #f9eccc;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 30px;
+}
+
+.continue {
+  font-size: 1rem;
+  float: right;
+  color: rgba(255, 255, 255, 0.8);
+}
