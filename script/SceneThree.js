@@ -1,4 +1,4 @@
-export default function sceneThreeLines() {
+export default function SceneThreeLines() {
   const lines = [
     {
       name: null,

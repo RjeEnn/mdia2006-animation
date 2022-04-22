@@ -1,13 +1,13 @@
 import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
 import DialogueBox from "../../components/DialogueBox";
-import sceneThreeLines from "../../script/sceneThree";
+import SceneThreeLines from "../../script/SceneThree";
 import styles from "../../styles/SceneThree.module.css";
 import Image from 'next/image';
 import Router from "next/router";
 
 export async function getStaticProps() {
-  const lines = sceneThreeLines();
+  const lines = SceneThreeLines();
 
   return {
     props: {

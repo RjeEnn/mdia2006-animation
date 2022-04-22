@@ -1,4 +1,4 @@
-export default function sceneOneLines() {
+export default function SceneOneLines() {
   const lines = [
     {
       name: 'Rowan',

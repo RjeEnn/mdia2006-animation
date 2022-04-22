@@ -1,13 +1,13 @@
 import Head from "next/head";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import DialogueBox from "../../components/DialogueBox";
-import sceneFourLines from "../../script/sceneFour";
+import SceneFourLines from "../../script/SceneFour";
 import styles from "../../styles/SceneFour.module.css";
 import Image from 'next/image';
 import Router from "next/router";
 
 export async function getStaticProps() {
-  const lines = sceneFourLines();
+  const lines = SceneFourLines();
 
   return {
     props: {

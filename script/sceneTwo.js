@@ -1,4 +1,4 @@
-export default function sceneTwoLines() {
+export default function SceneTwoLines() {
   const lines = [
     {
       name: null,
