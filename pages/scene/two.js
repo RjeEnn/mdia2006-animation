@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
 import DialogueBox from "../../components/dialogueBox";
-import SceneTwoLines from "../../script/SceneTwo";
+import SceneTwoLines from "../../script/sceneTwo";
 import styles from "../../styles/SceneTwo.module.css";
 import Image from 'next/image';
 import Router from "next/router";
