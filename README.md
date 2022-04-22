@@ -8,4 +8,6 @@ Music Attribution:
 
 - Scene Four Music: Music by <a href="/users/zakharvalaha-22836301/?tab=audio&amp;utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=audio&amp;utm_content=9785">ZakharValaha</a> from <a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=9785">Pixabay</a>
 
-- End Screen +: Music by <a href="/users/juliush-3921568/?tab=audio&amp;utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=audio&amp;utm_content=7804">JuliusH</a> from <a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=7804">Pixabay</a>
+- End Screen : Music by <a href="/users/juliush-3921568/?tab=audio&amp;utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=audio&amp;utm_content=7804">JuliusH</a> from <a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=7804">Pixabay</a>
+
+- Background Illustrations from premium license of freepik.com
